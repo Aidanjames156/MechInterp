@@ -1,0 +1,9 @@
+# Install torch first from the CPU index to avoid pulling CUDA wheels:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformer_lens>=2.0
+fastapi
+uvicorn[standard]
+pydantic>=2
+httpx
+pytest
